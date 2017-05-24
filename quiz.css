@@ -1,0 +1,48 @@
+ul li {
+  background-color: lightblue;
+}
+
+.answers li {
+  list-style-type: none;
+  width: 80%;
+  height: 100px;
+}
+
+#question {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100px;
+  margin: 10px;
+  background-color: deepskyblue;
+  padding: 20px;
+}
+
+.wrong {
+  background-color: gold;
+}
+
+.guess {
+  border: 3px solid navy;
+}
+
+.right {
+  background-color: lightgreen;
+  border: 6px solid darkgreen;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#next {
+  background-color: deepskyblue;
+}
+
+.invisible {
+  display: none;
+}

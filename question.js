@@ -37,6 +37,7 @@ function loadQuestion(atQ) {
   $('#question').text(quizData[atQ].question);
   $('#next').text("Next Question").addClass("invisible");
   if (quizState.statusQs[atQ] === "unseen") { quizState.statusQs[atQ] = "viewed"; };
+  $('#next').addClass("invisible");
   var answers = [];
   for (let a = 0; a < quizData[atQ].answers.length ; a++) {
     answers[a] = quizData[atQ].answers[a].answer;

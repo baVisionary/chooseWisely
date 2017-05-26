@@ -1,1 +1,26 @@
+<<<<<<< Updated upstream
 
+=======
+{
+    "questions": [
+        {
+            "question": "this is question one",
+            "answers": [
+                { "answer": "this is answer one",   "isRight": "true"  },
+                { "answer": "this is answer two",   "isRight": "false" },
+                { "answer": "this is answer three", "isRight": "false" },
+                { "answer": "this is answer four",  "isRight": "false" }
+            ]
+        },
+        {
+            "question": "this is question two",
+            "answers": [
+                { "answer": "this is answer one",   "isRight": "true"  },
+                { "answer": "this is answer two",   "isRight": "false" },
+                { "answer": "this is answer three", "isRight": "false" },
+                { "answer": "this is answer four",  "isRight": "false" }
+            ]
+        }
+    ]
+}
+>>>>>>> Stashed changes

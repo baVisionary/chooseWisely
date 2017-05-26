@@ -1,46 +1,84 @@
-ul li {
-  background-color: lightblue;
+ul {
+  list-style-type: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 360px;
 }
 
-.answers li {
-  list-style-type: none;
+li {
+  background-color: lightblue;
   width: 80%;
-  height: 100px;
+  height: 80px;
+}
+
+li:last-child:hover {
+  margin-bottom: 0px;
 }
 
 #question {
   display: block;
   box-sizing: border-box;
-  width: 90%;
   height: 100px;
   margin: 10px;
   background-color: deepskyblue;
   padding: 20px;
 }
 
-.wrong {
-  background-color: gold;
-}
-
-.guess {
-  border: 3px solid navy;
-}
-
-.right {
-  background-color: lightgreen;
-  border: 6px solid darkgreen;
-}
-
 .btn {
-  display: inline-block;
   box-sizing: border-box;
   margin: 10px;
   border-radius: 10px;
   padding: 20px;
 }
+.btn:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: -2px 12px 12px 8px;
+}
+
+.answer {
+  border: 5px solid transparent;
+}
+
+.answer:hover {
+  border-color: dodgerblue;
+}
+
+.wrong {
+  background-color: lightpink;
+  border-color: transparent;
+}
+
+.wrong:hover {
+  border-color: red;
+  margin: 10px;
+  box-shadow: none;
+}
+
+.right {
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.right:hover {
+  border-color: green;
+  margin: 10px;
+  box-shadow: none;
+}
+
+.answer:last-child:hover {
+  margin-bottom: 0px;
+}
 
 #next {
   background-color: deepskyblue;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+#next:hover {
+  border: 2px solid blue;
+  box-shadow: none;
+  margin: 10px;
 }
 
 .invisible {

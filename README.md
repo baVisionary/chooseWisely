@@ -1,2 +1,8 @@
 # chooseWisely
-Multiple choie quiz app
+Multiple choice quiz app
+
+Goals:
+- Load JSON file of questions
+- Render HTML showing each question
+- Track user answers
+- Display results
